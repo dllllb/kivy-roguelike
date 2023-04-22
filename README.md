@@ -1,4 +1,4 @@
-<p align="center">
+<p align="left">
   <img style="height: 50%; width: 50%;" src="khack.gif" />
 </p>
 
