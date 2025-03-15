@@ -1,0 +1,31 @@
+[project]
+name = "kivy-roguelike"
+version = "0.1.0"
+description = "A roguelike game built with Kivy"
+requires-python = ">=3.10"
+readme = "README.md"
+dependencies = [
+    "numpy",
+    "kivy",
+    "buildozer",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel",
+    "pandas",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["kivy-roguelike"]
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
